@@ -1,0 +1,16 @@
+{
+  // Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  // ESLint
+  "eslint.enable": true,
+  "eslint.packageManager": "yarn",
+  // stylelint
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "stylelint.packageManager": "yarn"
+}
