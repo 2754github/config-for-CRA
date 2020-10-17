@@ -50,12 +50,7 @@ $ yarn eslint --init
 ### 3. 必要なパッケージのインストール
 
 ```zsh:ターミナル
-# ESLint関連
-$ yarn add -D @typescript-eslint/parser @typescript-eslint/eslint-plugin
-$ yarn add -D eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
-$ yarn -D add eslint-plugin-prefer-arrow
-# stylelint関連
-$ yarn add -D stylelint stylelint-config-standard stylelint-order stylelint-config-recess-order
+$ yarn add -D @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-prefer-arrow stylelint stylelint-config-standard stylelint-order stylelint-config-recess-order
 ```
 
 ### 4. `<アプリ名>`のルートディレクトリに、このリポジトリの中身を丸ごとコピーする。
