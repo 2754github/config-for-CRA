@@ -63,6 +63,7 @@ module.exports = {
     ],
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
     'react/jsx-props-no-spreading': 'warn',
+    'react/jsx-wrap-multilines': 'off', // prettierがフォーマットしちゃうのでoffにするしかない？
     'react-hooks/exhaustive-deps': 'warn',
     // 関数定義はアロー関数式以外許さない
     'prefer-arrow/prefer-arrow-functions': [
