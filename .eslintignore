@@ -4,3 +4,6 @@ public/
 **/node_modules/
 **/*.min.js
 *.config.js
+
+# Firebase Functions
+functions/index.js
